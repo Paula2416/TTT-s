@@ -32,3 +32,26 @@ h1 {
     font-size: 2em;
     margin-bottom: 20px;
 }
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-auto-rows: repeat(3, auto);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.game-board div {
+    background-color: #f8f9fa;
+    border: 2px solid #f72803;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    color: #2f00ff;
+    cursor: pointer;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+}
