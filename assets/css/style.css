@@ -45,7 +45,7 @@ h1 {
 
 .game-board div {
     background-color: transparent; 
-    border: 4px solid #041103; 
+    border: 3px solid #20ee05; 
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -58,6 +58,8 @@ h1 {
     background-size: cover;
     background-position: center;
 }
+
+
 
 @media (max-width: 600px) {
     .game-board div {

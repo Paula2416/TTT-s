@@ -6,8 +6,8 @@ document.addEventListener('DOMContentLoaded', () => {
     let gameActive = true;
     let gameState = ['', '', '', '', '', '', '', '', ''];
 
-    const playerXImage = 'assets/images/playx.jpeg'; // Path to X image
-    const playerOImage = 'assets/images/playo.jpeg'; // Path to O image
+    const playerXImage = 'assets/images/X.png'; // Path to X image
+    const playerOImage = 'assets/images/O.png'; // Path to O image
 
     const winningConditions = [
         [0, 1, 2],
