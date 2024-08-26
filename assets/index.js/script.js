@@ -13,3 +13,13 @@ function handleCellClick(clickedCellEvent) {
 
     checkResult();
 }
+function checkResult() {
+    let roundWon = false;
+    for (let i = 0; i < winningConditions.length; i++) {
+        const [a, b, c] = winningConditions[i];
+        if (gameState[a] && gameState[a] === gameState[b] && gameState[a] === gameState[c]) {
+            roundWon = true;
+            break;
+        }
+    }
+}
