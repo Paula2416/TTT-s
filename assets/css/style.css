@@ -5,16 +5,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(146, 146, 72); 
+    background: url('../images/floral.jpeg');  
     background-size: cover;
     background-position: center;
     min-height: 100vh; 
 }
-
 .game-container {
     text-align: center;
-    background-image: url('../images/floral.jpeg'); 
     background-size: cover; 
+    background-color: yellow;
     background-position: center;
     padding: 20px;
     border-radius: 8px;
@@ -22,7 +21,6 @@ body {
     width: 90%; 
     max-width: 450px; 
     margin: 20px; 
-    opacity: 20%;
 }
 
 img {
@@ -45,7 +43,7 @@ h1 {
 
 .game-board div {
     background-color: transparent; 
-    border: 3px solid #20ee05; 
+    border: 5px solid #101110; 
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -78,7 +76,7 @@ h1 {
 }
 
 button {
-    background-color: #d3e911; 
+    background-color: #1c1d15; 
     color: #333333; 
     padding: 10px 20px;
     border: none;
@@ -89,11 +87,11 @@ button {
 }
 
 button:hover {
-    background-color: #c2d20f; /* Slightly darker shade on hover */
+    background-color: #4dd20f; 
 }
 
 #status {
     margin-top: 15px;
     font-size: 2em;
-    color: #070c08; /* Darker color for better contrast with background */
+    color: #070c08; 
 }
