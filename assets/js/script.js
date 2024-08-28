@@ -45,7 +45,7 @@ function handleCellClick(clickedCellEvent) {
     checkResult();
      // If the game is still active and it's the computer's turn, make a move
      if (gameActive && currentPlayer === computerPlayer) {
-        setTimeout(makeComputerMove, 400); // Small delay for a more natural feel
+        setTimeout(makeComputerMove, 500); // Small delay for a more natural feel
     }
 }
     // Function to check if the game is won, drawn, or should continue
