@@ -10,6 +10,7 @@ body {
     background-position: center;
     min-height: 100vh; 
 }
+/* Styling for the main game container */
 .game-container {
     text-align: center;
     background-size: cover; 
@@ -22,25 +23,25 @@ body {
     max-width: 450px; 
     margin: 20px; 
 }
-
+/* Styling for the image inside the game container */
 img {
     width: 80px; 
     margin-bottom: 20px;
 }
-
+/* Styling for the game title */
 h1 {
     color: #333;
     font-size: 2.5em;
     margin-bottom: 20px;
 }
-
+/* Styling for the game board container */
 .game-board {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     margin-bottom: 20px;
 }
-
+/* Styling for each cell in the game board */
 .game-board div {
     background-color: transparent; 
     border: 5px solid #101110; 
@@ -57,7 +58,7 @@ h1 {
     background-position: center;
 }
 
-
+/* Responsive styling for screens less than 600px */
 
 @media (max-width: 600px) {
     .game-board div {
@@ -74,7 +75,7 @@ h1 {
         font-size: 1.5em; 
     }
 }
-
+/* Styling for the reset button */
 button {
     background-color: #1c1d15; 
     color: #333333; 
@@ -85,11 +86,11 @@ button {
     font-size: 1em;
     margin-top: 10px;
 }
-
+/* Styling for the reset button when hovered over */
 button:hover {
     background-color: #4dd20f; 
 }
-
+/* Styling for the status message */
 #status {
     margin-top: 15px;
     font-size: 2em;
