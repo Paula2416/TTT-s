@@ -79,7 +79,7 @@ function checkResult() {
     // Function to reset the game
 function resetGame() {
     gameActive = true;
-    currentPlayer = 'X';
+    currentPlayer = userPlayer; // change to users turn reset
     gameState = ['', '', '', '', '', '', '', '', ''];
     statusDisplay.textContent = currentPlayerTurn();
     Array.from(board.children).forEach(cell => {
