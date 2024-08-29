@@ -1,5 +1,5 @@
 # TTT's
-Welcome to **TTTs (Tic-Tac-Toe)**, the digital version of X and O where we play on a 3x3 grid. TTTs is built with simple controls and captivating graphics that form a flexible experience, where you against another person.
+Welcome to [ TTT's ](https://paula2416.github.io/TTT-s/), the digital version of X and O where we play on a 3x3 grid. TTTs is built with simple controls and captivating graphics that form a flexible experience, where you against another person.
 ![TTT]
  
 # Existing Features
